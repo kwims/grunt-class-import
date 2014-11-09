@@ -1,0 +1,42 @@
+{
+  "name": "grunt-class-import",
+  "description": "Prodives an easy way to build a project using OOP with one Class per file.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Franck TANKOUA & Jalal CHAABANE",
+    "email": "ftankoua@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ftankoua@tools-kwims.net:7990/scm/grun/grunt-class-import.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
