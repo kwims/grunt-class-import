@@ -19,6 +19,16 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-class-import');
 ```
 
+
+## Adding dependencies to your JS file is simple
+
+E.g: File ABC.js depending on fixtures/A.js, fixtures/B.js and fixtures/C.js
+```js
+/* @classImport:[fixtures/A, fixtures/B, fixtures/C] */
+
+//Your code come here ...
+
+```
 ## The "class_import" task
 
 ### Overview
